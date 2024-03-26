@@ -7,9 +7,11 @@ The current sequence is based on the official Volumio logo.
 ### Customization
 
 1. Place mp4 source in the "input" folder. 
-2. Run the mp4-to-png.sh file for the filename you are using. 
-3. Transfer the image sequence to the root of the project folder.
-4. Open volumio-player.script and change the lines containing
+2. Update ffmpeg parameters in mp4-to-png.sh file with appropriate aspect ratio.
+3. Update input mp4 file name in mp4-to-png.sh.
+4. Run the mp4-to-png.sh file for the filename you are using. 
+5. Transfer the image sequence to the root of the project folder.
+6. Open volumio-player.script and change the lines containing
    {{NUMBER OF IMAGES IN SEQUENCE}}:
 ```
 for (i = 0; i < {{NUMBER OF IMAGES IN SEQUENCE}}; i++)

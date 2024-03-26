@@ -7,12 +7,12 @@ anime.timeline({loop: true})
     targets: '.vologo .letter',
     opacity: [0,1],
     easing: "easeInOutQuad",
-    duration: 1500,
-    delay: (el, i) => 150 * (i+1)
+    duration: 500,
+    delay: (el, i) => 125 * (i+1)
   }).add({
     targets: '.vologo',
     opacity: 0,
-    duration: 1000,
+    duration: 750,
     easing: "easeOutExpo",
     delay: 1000
   });
